@@ -1,0 +1,23 @@
+{
+  "title": "Billing",
+  "exportCSV": "Export CSV",
+  "extraProtectionProgramStatus": "Extra Protection Program Status",
+  "selectBillings": "Select Billings",
+  "billingStatements": {
+    "title": "Billing and Payments",
+    "documents": "Billing Statements",
+    "statementNumber": "Statement Number",
+    "status": "Status",
+    "noDocuments": "No billing statements are available at this time."
+  },
+  "billing": {
+    "transferPricing": "These are the fees charged for specimen transfer between CryoFuture and your connected Clinic. If your connected clinic changes, please contact ",
+    "serviceGarantees": "These are our service guarantees for transportation services and storage, subject to availability.",
+    "clinicLocal": "Secure hand-delivered medical courier between two fertility treatment clinics or other non-CryoFuture locations located less than 50 miles from a CryoFuture facility.",
+    "clinicRegional": "Secure hand-delivered medical courier between two fertility treatment clinics or other non-CryoFuture locations located between 50 and 200 miles from a CryoFuture facility.",
+    "additionalTransferFee": "This optional fee is in addition to the transfer fee for rush transfers only. If Expedited Delivery is requested, paid, and approved by sending and receiving clinics, expedited delivery will be made within 1 business day and/or the earliest day the receiving clinic can receive shipment. This option is available for transfers within 100 miles of a CryoFuture facility.",
+    "clinicToClinic": "These are the fees charged for specimen transfer for specimens between two IVF clinics or facilities, neither of which are CryoFuture locations i.e. a specimen transfer from one fertility clinic to another fertility clinic.This is NOT the transfer fee to or from a CryoFuture facility for storage."
+  },  
+  "clinicBillingType": "Clinic to Clinic Transfer Fees",
+  "billingNotifications": "Billing Notifications"
+}

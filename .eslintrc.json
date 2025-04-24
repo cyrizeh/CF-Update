@@ -1,0 +1,56 @@
+{
+  "extends": ["next", "next/core-web-vitals", "eslint:recommended"],
+  "globals": {
+    "React": "readonly"
+  },
+  "plugins": ["react", "testing-library", "jest-dom"],
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "overrides": [
+    {
+      "files": ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)"],
+      "extends": ["plugin:testing-library/react"]
+    }
+  ],
+  "rules": {
+    "no-console": [
+      "error",
+      {
+        "allow": ["warn", "error"]
+      }
+    ],
+    "no-unused-vars": "error",
+    "no-unsafe-optional-chaining": "warn",
+    "react/jsx-uses-vars": "error",
+    "react/jsx-uses-react": "error",
+    "react/prop-types": "error",
+    "react/destructuring-assignment": "warn",
+    "default-param-last": "error",
+    "complexity": [
+      "error",
+      {
+        "max": 16
+      }
+    ],
+    "no-return-await": "warn",
+    "camelcase": [
+      "warn",
+      {
+        "properties": "always"
+      }
+    ],
+    "prefer-destructuring": [
+      "error",
+      {
+        "array": false,
+        "object": true
+      },
+      {
+        "enforceForRenamedProperties": false
+      }
+    ]
+  }
+}

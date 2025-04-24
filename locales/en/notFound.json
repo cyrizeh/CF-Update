@@ -1,0 +1,15 @@
+{    
+  "notFoundPage": "This page could not be found.",
+  "patientNotFound": "Patient could not be found.",
+  "clinicNotFound": "Clinic could not be found.",
+  "facilityNotFound": "Facility could not be found.",
+  "transportationRequestNotFound": "Transportation Request could not be found.",
+  "transferRequestNotFound": "Transfer Request could not be found.",
+  "terminationNotFound": "Termination Request could not be found.",
+  "documentNotFound": "Document could not be found.",
+  "billingStatementNotFound": "Billing Statement could not be found.",
+  "pickListNotFound": "Pick List could not be found.",
+  "caneDetailsNotFound": "Cane could not be found.",
+  "pricingPlanNotFound": "Pricing Plan could not be found.",
+  "transportationPatientNotFound": "Transportation Patient could not be found."
+}

@@ -1,0 +1,54 @@
+.patients__list__table tbody tr:hover .patient__name {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.patients__list__table tbody .patient__name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.patients__list__table .patient__cta {
+  width: 30px;
+  height: 30px;
+}
+
+.patients__list__table tbody tr:hover .patient__cta svg {
+  stroke: url(#primary-gradient);
+}
+.patients__list__table tbody tr:hover .patient__cta {
+  background: #383838;
+}
+
+.patients__list__table .patient__rfid__wrapped {
+  display: none;
+}
+
+.patients__list__table .patient__rfid__default {
+  height: 38px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.patients__list__table tbody tr:hover .patient__rfid__wrapped__hover {
+  display: block;
+}
+
+.patients__list__table:hover tbody tr:hover .patient__rfid__default__hover {
+  display: none;
+}
+
+.patients__list__table thead tr th:first-child {
+  border-radius: 8px 0px 0px 0px;
+}
+
+.patients__list__table thead tr th:last-child {
+  border-radius: 0px 8px 0px 0px;
+}
+
+.patients__list__table tbody tr {
+  height: 49px;
+  overflow: hidden;
+}

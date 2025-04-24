@@ -1,0 +1,32 @@
+{
+    "page_title": "Pricing Plans",
+    "search_plans_placeholder": "Search by name",
+    "view_plan": "View plan",
+    "edit_name": "Edit Plan Name",
+    "toast": {
+        "success_edit_name": "Pricing Plan name updated successfully!",
+        "error_edit_name": "Failed to edit Pricing Plan Name",
+        "error_duplicate_edit_name": "Please enter a different Pricing Plan Name"
+    },
+    "save": "Save",
+    "saving": "Saving...",
+    "loading": "Loading...",
+    "noPricingPlan": "Billing for this year is not provided. Please fill in all the details for the clinic information to be updated!",
+    "select_charge_type": "Select charge type:",
+    "subscription_type": "Subscription type:",
+    "charge_type": "Charge type:",
+    "select_subscription_type": "Select subscription type:",
+    "table": {
+        "specimen_pricing": "Specimen pricing",
+        "patient_pricing": "Patient price",
+        "cane_pricing": "Cane price",
+        "embryo": "Embryo",
+        "oocyte": "Oocyte",
+        "sperm": "Sperm"
+    },
+    "create": "Create Pricing Plan",
+    "pricingPlanName": "Pricing Plan Name",
+    "planDetails": "Pricing Plan Details",
+    "noDiscounts": " No discounts found",
+    "clinicPlanVersion": "Plan Version "
+}

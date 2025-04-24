@@ -1,0 +1,54 @@
+.data__table__table tbody tr:hover .patient__name {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.patients__list__table tbody .patient__name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.data__table__table .patient__cta {
+  width: 30px;
+  height: 30px;
+}
+
+.data__table__table tbody tr:hover .patient__cta svg {
+  stroke: url(#primary-gradient);
+}
+.data__table__table tbody tr:hover .patient__cta {
+  background: #383838;
+}
+
+.data__table__table .custom__cell__wrapped {
+  display: none;
+}
+
+.data__table__table .custom__cell__default {
+  height: 38px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.data__table__table tbody tr:hover .custom__cell__wrapped__hover {
+  display: block;
+}
+
+.data__table__table:hover tbody tr:hover .custom__cell__default__hover {
+  display: none;
+}
+
+.data__table__table thead tr th:first-child {
+  border-radius: 8px 0px 0px 0px;
+}
+
+.data__table__table thead tr th:last-child {
+  border-radius: 0px 8px 0px 0px;
+}
+
+.data__table__table tbody tr {
+  height: 49px;
+  overflow: hidden;
+}

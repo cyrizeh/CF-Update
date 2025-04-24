@@ -1,0 +1,30 @@
+export interface PricingPlanFormFields {
+  form: {
+    values: {
+      name: string;
+      servicePrices: Array<{
+        name: string;
+        price: string | number | undefined;
+        isCustom?: boolean | undefined;
+        description: string | undefined;
+        priceType?: string | undefined;
+        type?: string | undefined;
+      }>;
+      discounts: Array<{ type: string; amount: string | number | undefined; name: string }>;
+      chargeType: string;
+      subscriptionType: string;
+      storagePrices: {
+        [key: string]: {
+          isEnabled: boolean;
+          embryoPrice: string | number | undefined;
+          spermPrice: string | number | undefined;
+          oocytePrice: string | number | undefined;
+          patientPrice?: string | number | undefined;
+          canePrice?: string | number | undefined;
+        };
+      };
+    };
+    chargeType?: any;
+    subscriptionType?: any;
+  };
+}

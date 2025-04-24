@@ -1,0 +1,12 @@
+{
+  "requestTermination": "Request Termination",
+  "info": {
+    "title": "Click here to begin the termination request process",
+    "text1": "An initiated termination request for all specimens will pause your billing for 30 days to give you time to complete any required documentation to complete the termination request.",
+    "text2": " If you need additional storage time beyond 30 days, you will be billed for an additional annual storage period from the end of your previous billing period.",
+    "alternativeText1": "No specimens for termination at this time.",
+    "alternativeText2": "Please contact support if you have any questions."
+  },
+  "cancelRequest":"Cancel Request",
+  "title":"Termination request"
+}

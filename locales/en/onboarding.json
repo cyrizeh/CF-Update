@@ -1,0 +1,103 @@
+{
+  "welcome_title": "Welcome to CryoFuture",
+  "welcome_description": "We are excited you have chosen us as your cryostorage solution. The next few screens will walk you through the process of signing your legal paperwork. Watching the video below to begin.",
+  "get_started": "Get Started",
+  "go_to_dashboard": "Go to dashboard",
+  "complete_onboarding": "Complete onboarding",
+  "sign_document": "Sign Documents",
+  "next": "Next",
+  "back": "Back",
+  "success_status_message": "The document is signed successfully!",
+  "error_status_message": "Error. Document not signed",
+  "congrats_title": "Thank you",
+  "congrats_description_part1": "Thank you for signing up with Cryofuture. You can always contact us at ",
+  "congrats_description_part2": " or email us at ",
+  "contact_us_description": "Do you need support or you have questions?",
+  "contact_us_button": "Contact Us",
+  "transportation_description":"Service Guarantee level is only valid for the underlying specimen transfer. Service Guarantee levels selected here must match the levels selected in the executed Specimen Transfer Service Guarantee Agreement. Click here for program",
+  "transportation_terms_link":"terms and conditions.",
+  "transportation": {
+    "step1": {
+      "title": "Specimen Transport",
+      "description1": "The first step is to sign the CryoFuture Transfer Consent. If you have a partner associate with your account, they will also be prompted to sign the Transfer Consent through a separate link sent to the email we have for them on file.",
+      "description2": "If you have any questions, or if any of your details have changed since the request was initiated, please contact CryoFuture at 650-437-0503 or support@cryofuture.com.",
+      "description3": "Click \"Sign Documents\" to e-sign the Transfer Consent."
+    },
+    "step2": {
+      "title": "Pay with Credit/Debit Card",
+      "description1": "Please enter your credit card details and click \"Pay\" to pay the amount due.",
+      "description2": "Terms and Conditions are outlined in the REQUEST FOR TRANSFER OF CRYOPRESERVED SPECIMENS AND RELEASE FROM RESPONSIBILITY IN CONNECTION THEREWITH."
+    },
+    "step4": {
+      "text": "No payment is required at this time as a third party (typically a clinic or a benefits provider) is handling payment for your specimen transfer.",
+      "finish": "Finish",
+      "title": "Payment"
+    },
+    "step5": {
+      "title": "Thank you for choosing CryoFutyre for your specimen transportation.",
+      "description1": "We will be in touch prior to the date of transfer. In the meantime, don't hesitate to reach out at any time if you have questions or if any of your transfer details or timelines have changed.",
+      "description2": "You can reach us at at 650-437-0503 or support@cryofuture.com."
+    }
+  },  
+  "failed_billing": "Failed to pay the bill",
+  "payments": {
+    "payNow": {
+      "1stPart": "By clicking 'Pay now' I understand that my card will be charged for the Storage Subscription(s) selected and any applicable Transfer fees, Transportation Service Guarantee, or Extra Protection Program (Storage Service Guarantee) fees. Additionally, I authorize CryoFuture to charge my payment method for the Storage Subscription(s) selected, unless I cancel. For more information about the automatic payment terms for Storage Subscriptions, including how to cancel your Storage Subscription please refer to ",
+      "2ndPart": " Appendix B: Automatic Payment Services in the CryoStorage Client Agreement. ",
+      "3rdPart": "To cancel your Extra Protection Program subscription, please click 'Unsubscribe' in the 'Extra Protection Program' section of your patient dashboard and follow the instructions. Please address questions about your plan, or for transfer, termination or cancellation requests to ",
+      "4thPart": "Please note that your billing period begins on ",
+      "payNowspecimenReceived": "the day that we received your specimen. ",
+      "payNowbillingDate": "your next billing date carried over from your previous clinic's billing cycle. ",
+      "5thPart": "Recurring Storage Subscription and Extra Protection Plan (if selected) payment dates are based on the anniversary of this date based on the length of storage plan selected."
+    },
+    "schedulePayment": {
+      "1stPart": "By clicking 'Schedule Payment', I understand that my card will be charged for the initial Storage Subscription(s) selected and any applicable Transfer fees, Service Guarantee fees, or Extra Protection Program (Storage Service Guarantee) fees ",
+      "payNowspecimenReceived1stPart": "after my/our specimen(s) has/have been transferred to CryoFuture. ",
+      "payNowbillingDate1stPart": " on my/our billing start date. ",
+      "2ndPart": "  Additionally, I authorize CryoFuture to charge my payment method for the storage subscription(s) selected, unless I cancel. For more information about the automatic payment terms, including how to cancel your storage subscription please refer to ",
+      "3rdPart": "Appendix B: Automatic Payment Services in the CryoStorage Client Agreement. ",
+      "4thPart": "To cancel your Extra Protection Program subscription, please click 'Unsubscribe' in the 'Extra Protection Program' section of your patient dashboard and follow the instructions. Please address questions about your plan, or for transfer, termination or cancellation requests to ",
+      "6thPart": "If your ",
+      "payNowspecimenReceived2ndPart": "next billing date has already passed ",
+      "payNowbillingDate2ndPart": "specimen has already been received ",
+      "7thPart": "then your card will be charged within the next 2 business days.",
+      "isPreTreatment": "Please enter your card details to complete onboarding. We will only charge your card on or after the date that we receive your specimen(s) for storage at CryoFuture. If you do not require our services, we will not charge your card.",
+      "isSignupPatientNoSpecimens":"Please enter your card details to complete onboarding. We will only charge your card on or after the date that we receive your specimen(s) for storage at CryoFuture according to the pricing schedule below. If you do not require our services, we will not charge your card.",
+      "isSignupPatientWithSpecimens":"Please enter your card details to complete onboarding. We will only charge your card according to the on or after the date that we receive your specimen(s) for storage at CryoFuture.",
+      "pricingTableDescription":"The pricing table below shows the storage and transfer fees that you will be charged after we have received your specimen for storage. If you do not ultimately require specimen storage services from us and we do not receive your specimen, we will not charge your card. Pricing is per specimen type (i.e. one charge for embryos, one charge for oocytes, and one charge for sperm regardless of the quantity of embryos, oocytes or sperm)."
+    }
+  },  
+  "payNowHeader": "Pay Now",
+  "schedulePaymentHeader": "Schedule Payment",
+  "plan": {
+    "warning": " Before selecting the Extra Protection Program (Storage Service Guarantee) and Transportation Service Guarantee, please choose a Storage plan first",
+    "extraProtection": "Extra Protection Program (Storage Service Guarantee)",
+    "transportationGuaranteeDescription1": "CryoFuture offers an optional Transportation Service Guarantee for additional peace of mind during the transfer of your specimen to CryoFuture. ",
+    "transportationGuaranteeDescription2": "Click here for program Terms of Service.",
+    "extraProtectionDescription1": "CryoFuture offers an optional Storage Service Guarantee, our Extra Protection Program, for additional peace of mind during storage at CryoFuture. The Extra Protection Program provides reimbursement against loss while in storage at CryoFuture and, if selected, is paid annually based on the date that we receive(d) your specimen. ",
+    "extraProtectionDescription2": "Click here for Extra Protection Terms of Service.",
+    "transportationGuarantee": "Transportation Service Guarantee",
+    "amountDueNow": "Amount Due Now",
+    "amountScheduled": "Amount Scheduled"
+  },
+  "card":{
+    "newWindow": "New Window",
+    "description":"Before proceeding, click \"New Window\" to open the video in a separate browser."
+  },
+  "storagePlan":{
+    "title": "Storage plan",
+    "description":"If you would like to change your storage plan term at the end of your current billing period, please select the new plan from the dropdown list under \"Next Billing Plan\"."
+  },
+  "epp":{
+    "title":"Extra Protection Program (EPP) Enrollment Status",
+    "description":"Your specimens are currently not covered by the Extra Protection Program - our Service Guarantee that offers up to $35,000 in guaranteed reimbursement in the event of loss. Consider adding additional peace of mind by signing up today. This affordable annual plan covers all specimens and specimen types owned by you in the event of loss.",
+    "additionalInfo":"Extra Protection Program Fee is $188 per year. See ",
+    "confirmationPart1":"By clicking \"SUBSCRIBE\" below, I/we agree to the Extra Protection Program ",
+    "confirmationPart2":", and authorize CryoFuture to charge my/our payment method for the annual Extra Protection Plan and understand that I/we will be enrolled in the automatic payment plan unless I/we cancel by clicking \"UNSUBSCRIBE\" in my/our patient portal, or contacting support@cryofuture.com at any time.",
+    "optOut":"Don't Enroll",
+    "optIn":"Enroll",
+    "terms":"terms and conditions for more details"
+
+
+  }
+}

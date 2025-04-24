@@ -1,0 +1,21 @@
+name: build-and test
+run-name: Build next.js for ${{ github.actor }}
+on:
+  pull_request:
+  push:
+    branches-ignore:
+      - develop
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.16.1'
+      - name: Install dependencies
+        run: npm i
+      - name: Build
+        run: npm run build

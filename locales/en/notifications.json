@@ -1,0 +1,20 @@
+{
+    "title": "Notifications",
+    "table": {
+        "patient": "Patient",
+        "creation_date": "Creation date",
+        "clinic": "Clinic",
+        "type": "Notification type",
+        "requested_by": "Requested by",
+        "processed_by":"Processed by",
+        "actions": "Action",
+        "link": "Link",
+        "request_link": "View Request"
+    },
+    "alert": {
+        "title": "Read",
+        "description": "Are you sure you want to read the notification?"
+    },
+    "searchBar": "Search by patient",
+    "read_error": "Failed to read the notification"
+}

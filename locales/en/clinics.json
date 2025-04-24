@@ -1,0 +1,56 @@
+{
+  "title": "Clinics",
+  "create_title": "Add a new clinic",
+  "edit_title": "Edit clinic details",
+  "edit_location": "Edit clinic location",
+  "edit_billing": "Edit billing address",
+  "searchPlaceholder": "Search by state, city, clinic, account",
+  "addParentClinic": "Add account",
+  "addClinic": "Add clinic",
+  "signedContracts": "Signed contracts",
+
+  "step1": {
+    "title": "Details",
+    "clinicDetails": "Clinic details",
+    "name": "Clinic name",
+    "selectClinic": "Search account",
+    "selectType": "Clinic type",
+    "isAffiliate": "Is an affiliate",
+    "primaryContactTitle": "Primary contact",
+    "secondaryContactTitle": "Secondary contact",
+    "primaryContactSubtitle": "You can add additional contacts from the clinic’s profile"
+  },
+
+  "step2": {
+    "title": "Address",
+    "clinicAddress": "Clinic address",
+    "selectState": "Select state",
+    "sameBilling": "Same as clinic address"
+  },
+
+  "step3": {
+    "title": "Affiliate",
+    "affiliateTitle": "Affiliate details",
+    "affiliateSubTitle": "Storage pay per patient"
+  },
+
+  "general": {
+    "title": "Clinic details",
+    "parentCompany": "Account",
+    "clinicName": "Clinic name",
+    "clinicType": "Clinic type",
+    "billingAddress": "Billing Address",
+    "clinicAddress": "Clinic Location"
+  },
+
+  "documents": {
+    "title": "Onboarding Documents",
+    "add": "Add",
+    "standatd": "The following documents are required from patients at all clinics.",
+    "custom": "    The following documents are required by all new patients.",
+    "noCustomDocumentsAdded": "You can add custom documents here",
+    "customDocumentsAdded": "You can add custom documents here"
+  },
+  "chooseplan": "Choose Pricing Plan",
+  "changeplan": "Change Pricing Plan"
+}

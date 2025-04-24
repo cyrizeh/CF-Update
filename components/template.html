@@ -1,0 +1,350 @@
+<html>
+  <head>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Nunito:wght@700&display=swap');
+      * {
+        font-family: 'Inter', sans-serif;
+        box-sizing: border-box;
+      }
+
+      .logo-small {
+        width: 211px;
+        height: 70.886px;
+        background-image: url('data:image/png;base64,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');
+      }
+
+      .ExternalClass,
+      .ExternalClass div,
+      .ExternalClass font,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass td,
+      img {
+        line-height: 100%;
+      }
+      #outlook a {
+        padding: 0;
+      }
+      .ExternalClass,
+      .ReadMsgBody {
+        width: 100%;
+      }
+      a,
+      blockquote,
+      body,
+      li,
+      p,
+      table,
+      td {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+      table,
+      td {
+        mso-table-lspace: 0;
+        mso-table-rspace: 0;
+      }
+      img {
+        -ms-interpolation-mode: bicubic;
+        border: 0;
+        height: auto;
+        outline: 0;
+        text-decoration: none;
+      }
+      table {
+        border-collapse: collapse !important;
+      }
+      #bodyCell,
+      #bodyTable,
+      body {
+        height: 100% !important;
+        margin: 0;
+        padding: 0;
+        font-family: ProximaNova, sans-serif;
+      }
+      #bodyCell {
+        padding: 20px;
+      }
+      #bodyTable {
+        width: 600px;
+      }
+      @font-face {
+        font-family: ProximaNova;
+        src: url(https://cdn.auth0.com/fonts/proxima-nova/proximanova-regular-webfont-webfont.eot);
+        src: url(https://cdn.auth0.com/fonts/proxima-nova/proximanova-regular-webfont-webfont.eot?#iefix)
+            format('embedded-opentype'),
+          url(https://cdn.auth0.com/fonts/proxima-nova/proximanova-regular-webfont-webfont.woff) format('woff');
+        font-weight: 400;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: ProximaNova;
+        src: url(https://cdn.auth0.com/fonts/proxima-nova/proximanova-semibold-webfont-webfont.eot);
+        src: url(https://cdn.auth0.com/fonts/proxima-nova/proximanova-semibold-webfont-webfont.eot?#iefix)
+            format('embedded-opentype'),
+          url(https://cdn.auth0.com/fonts/proxima-nova/proximanova-semibold-webfont-webfont.woff) format('woff');
+        font-weight: 600;
+        font-style: normal;
+      }
+      @media only screen and (max-width: 480px) {
+        #bodyTable,
+        body {
+          width: 100% !important;
+        }
+        a,
+        blockquote,
+        body,
+        li,
+        p,
+        table,
+        td {
+          -webkit-text-size-adjust: none !important;
+        }
+        body {
+          min-width: 100% !important;
+        }
+        #bodyTable {
+          max-width: 600px !important;
+        }
+        #signIn {
+          max-width: 280px !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <table
+        style="
+          width: 640px;
+          -webkit-text-size-adjust: 100%;
+          -ms-text-size-adjust: 100%;
+          mso-table-lspace: 0pt;
+          mso-table-rspace: 0pt;
+          margin: 0;
+          padding: 0;
+          font-family: 'ProximaNova', sans-serif;
+          border-collapse: collapse !important;
+          height: 100% !important;
+        "
+        align="center"
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+        height="100%"
+        width="100%"
+        id="bodyTable">
+        <tr>
+          <td
+            align="center"
+            valign="top"
+            id="bodyCell"
+            style="
+              -webkit-text-size-adjust: 100%;
+              -ms-text-size-adjust: 100%;
+              mso-table-lspace: 0pt;
+              mso-table-rspace: 0pt;
+              margin: 0;
+              padding: 0;
+              font-family: 'ProximaNova', sans-serif;
+              height: 100% !important;
+            ">
+            <div class="main">
+              <p
+                style="
+                  background: #1f2a37;
+                  text-align: center;
+                  -webkit-text-size-adjust: 100%;
+                  -ms-text-size-adjust: 100%;
+                  height: 132px;
+                  padding-top: 31px;
+                  margin-bottom: 43px;
+                ">
+                <img src="https://cfdevelop.blob.core.windows.net/public/cryo-big.png" alt="cryo-logo" />
+              </p>
+
+              <h1
+                style="
+                  color: #333;
+                  text-align: center;
+                  font-size: 20px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: 150%;
+                ">
+                {% if user.email_verified == false %}
+                <h1
+                  style="
+                    color: #333;
+                    text-align: center;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 150%;
+                  ">
+                  Welcome to {{ application.name}}!
+                </h1>
+                {% else %}
+                <h1
+                  style="
+                    color: #333;
+                    text-align: center;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 150%;
+                  ">
+                  Password Change Request
+                </h1>
+                {% endif %}
+              </h1>
+
+              {% if user.email_verified == false %}
+              <p
+                style="
+                  padding: 0 47px;
+                  color: var(--gray-500, #6b7280);
+                  text-align: left;
+                  margin-bottom: 40px;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 125%; /* 20px */
+                ">
+                Hello {{ user.name}}, <br />
+                We are delighted to welcome you to sign in to our platform.
+                <br />
+                <br />
+                With CryoFuture you can monitor and manage all aspects of your specimens from condition to storage and
+                travel. <br />
+                <br />Please sign in below to complete your profile.
+              </p>
+
+              <p style="text-align: left; margin-bottom: 40px; padding: 0 47px">
+                <a
+                  href="{{ url }}"
+                  style="
+                    border-radius: 8px;
+                    background: #1c64f2;
+                    color: white;
+                    padding: 14px 24px;
+                    text-decoration: none;
+                  "
+                  >Get started here</a
+                >
+              </p>
+              {% else %}
+
+              <p>You have submitted a password change request.</p>
+
+              <p
+                style="
+                  padding: 0 47px;
+                  color: var(--gray-500, #6b7280);
+                  text-align: left;
+                  margin-bottom: 40px;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 125%; /* 20px */
+                ">
+                If it wasn't you please disregard this email and make sure you can still login to your account. If it
+                was you, then
+                <strong>confirm the password change <a href="{{ url }}">click here</a></strong
+                >.
+              </p>
+
+              {% endif %}
+              <p
+                style="
+                  padding: 0 47px;
+                  color: #6b7280;
+                  text-align: left;
+                  font-size: 16px;
+                  height: 50px;
+                  margin-bottom: 140px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 125%; /* 20px */
+                ">
+                Cherie Kloss,<br />
+                Co-CEO, strategy and growth, <br />
+                <br />
+                {{ application.name }}
+              </p>
+
+              <div
+                style="
+                  text-align: left;
+                  color: #a9b3bc;
+                  padding: 0 47px;
+                  -webkit-text-size-adjust: 100%;
+                  -ms-text-size-adjust: 100%;
+                  background: #1f2a37;
+                  height: 197px;
+                ">
+                <div class="display: inline;">
+                  <p style="width: 18px; display: inline-block; margin-right: 32px">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M5.66064 16.3134C12.4531 16.3134 16.1683 10.6859 16.1683 5.80576C16.1683 5.64592 16.1683 5.4868 16.1575 5.3284C16.8803 4.80561 17.5042 4.15831 18 3.4168C17.326 3.71545 16.611 3.91131 15.8789 3.99784C16.6498 3.5363 17.2268 2.81039 17.5025 1.9552C16.7776 2.38536 15.9845 2.68852 15.1574 2.8516C14.6006 2.25953 13.8642 1.86748 13.0621 1.73611C12.2601 1.60474 11.4371 1.74138 10.7205 2.12489C10.0039 2.50839 9.43367 3.11738 9.09806 3.85761C8.76245 4.59784 8.68016 5.42804 8.86392 6.21976C7.39566 6.14615 5.95929 5.76459 4.64806 5.09986C3.33683 4.43513 2.18004 3.50208 1.2528 2.36128C0.780546 3.17427 0.635904 4.1367 0.848325 5.05259C1.06075 5.96849 1.61426 6.76899 2.39616 7.29112C1.80845 7.2737 1.23356 7.11516 0.72 6.82888C0.72 6.844 0.72 6.85984 0.72 6.87568C0.720233 7.72831 1.01539 8.55462 1.5554 9.21445C2.09542 9.87428 2.84705 10.327 3.6828 10.4958C3.13911 10.6441 2.56866 10.6658 2.01528 10.5592C2.25127 11.293 2.7107 11.9347 3.32933 12.3945C3.94796 12.8544 4.69484 13.1094 5.46552 13.1238C4.15781 14.1516 2.54236 14.7095 0.87912 14.7078C0.58529 14.7073 0.291747 14.6895 0 14.6546C1.68886 15.7384 3.65394 16.3132 5.66064 16.3106"
+                        fill="white" />
+                    </svg>
+                  </p>
+                  <p style="width: 18px; display: inline-block; margin-right: 32px">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_685_49730)">
+                        <path
+                          d="M17.0053 0H0.994737C0.445263 0 0 0.445263 0 0.994737V17.0053C0 17.5547 0.445263 18 0.994737 18H9.61579V11.0526H7.26316V8.31474H9.60316V6.31579C9.60316 3.98842 11.0211 2.72211 13.0958 2.72211C13.8 2.72526 14.5042 2.76316 15.2053 2.84211V5.27053H13.7716C12.6442 5.27053 12.4263 5.80421 12.4263 6.59053V8.32737H15.1263L14.7758 11.0526H12.4263V18H17.0053C17.5547 18 18 17.5547 18 17.0053V0.994737C18 0.445263 17.5547 0 17.0053 0Z"
+                          fill="white" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_685_49730">
+                          <rect width="18" height="18" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </p>
+                  <p style="width: 18px; display: inline-block; margin-right: 32px">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_685_49731)">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9 1.62159C11.4033 1.62159 11.6876 1.63088 12.6369 1.6741C13.5143 1.71412 13.9909 1.86059 14.3081 1.98385C14.7282 2.14711 15.028 2.34217 15.3431 2.65692C15.6582 2.97202 15.8532 3.27176 16.0162 3.69189C16.1394 4.00913 16.2859 4.48571 16.3259 5.36314C16.3691 6.31201 16.3784 6.59674 16.3784 9.00001C16.3784 11.4033 16.3691 11.6876 16.3259 12.6369C16.2859 13.5143 16.1394 13.9909 16.0162 14.3081C15.8529 14.7283 15.6578 15.028 15.3431 15.3431C15.028 15.6582 14.7282 15.8533 14.3081 16.0162C13.9909 16.1394 13.5143 16.2859 12.6369 16.3259C11.688 16.3691 11.4033 16.3784 9 16.3784C6.59674 16.3784 6.312 16.3691 5.36313 16.3259C4.48571 16.2859 4.00913 16.1394 3.69189 16.0162C3.27175 15.8529 2.97202 15.6578 2.65692 15.3431C2.34182 15.028 2.14675 14.7283 1.98384 14.3081C1.86059 13.9909 1.71412 13.5143 1.6741 12.6369C1.63088 11.688 1.62159 11.4033 1.62159 9.00001C1.62159 6.59674 1.63088 6.31237 1.6741 5.36314C1.71412 4.48571 1.86059 4.00913 1.98384 3.69189C2.14711 3.27176 2.34217 2.97202 2.65692 2.65692C2.97202 2.34182 3.27175 2.14675 3.69189 1.98385C4.00913 1.86059 4.48571 1.71412 5.36313 1.6741C6.31236 1.63088 6.59674 1.62159 9 1.62159ZM9 0C6.55565 0 6.24913 0.0103604 5.28918 0.054303C4.33138 0.0978883 3.67724 0.25008 3.10456 0.47265C2.51258 0.702724 2.01064 1.01032 1.51048 1.51084C1.01032 2.011 0.702366 2.51294 0.47265 3.10456C0.250079 3.67724 0.0978882 4.33138 0.054303 5.28918C0.0103604 6.24913 0 6.55566 0 9.00001C0 11.4444 0.0103604 11.7509 0.054303 12.7108C0.0978882 13.6686 0.250079 14.3228 0.47265 14.8955C0.702723 15.4874 1.01032 15.9894 1.51084 16.4895C2.01135 16.9901 2.51294 17.2976 3.10491 17.5277C3.67724 17.7503 4.33173 17.9025 5.28954 17.9461C6.24948 17.99 6.55601 18.0004 9.00036 18.0004C11.4447 18.0004 11.7512 17.99 12.7112 17.9461C13.669 17.9025 14.3235 17.7503 14.8958 17.5277C15.4878 17.2976 15.9897 16.9901 16.4899 16.4895C16.9904 15.989 17.298 15.4874 17.5281 14.8955C17.7506 14.3231 17.9028 13.6686 17.9464 12.7108C17.9904 11.7509 18.0007 11.4444 18.0007 9.00001C18.0007 6.55566 17.9904 6.24913 17.9464 5.28918C17.9028 4.33138 17.7506 3.67689 17.5281 3.10456C17.298 2.51259 16.9904 2.01064 16.4899 1.51048C15.9894 1.00996 15.4878 0.702366 14.8958 0.472293C14.3228 0.25008 13.6686 0.0978883 12.7108 0.054303C11.7509 0.0103604 11.4443 0 9 0ZM9.0003 4.37849C6.4477 4.37849 4.37883 6.44772 4.37883 8.99996C4.37883 11.5522 6.44806 13.6214 9.0003 13.6214C11.5525 13.6214 13.6218 11.5522 13.6218 8.99996C13.6218 6.44772 11.5529 4.37849 9.0003 4.37849ZM9.0003 11.9998C7.34335 11.9998 6.00042 10.6566 6.00042 8.99996C6.00042 7.343 7.3437 6.00008 9.0003 6.00008C10.6569 6.00008 12.0002 7.34336 12.0002 8.99996C12.0002 10.6569 10.6573 11.9998 9.0003 11.9998ZM14.8844 4.19555C14.8844 4.792 14.4009 5.27553 13.8044 5.27553C13.208 5.27553 12.7245 4.792 12.7245 4.19555C12.7245 3.59909 13.208 3.11556 13.8044 3.11556C14.4009 3.11556 14.8844 3.59909 14.8844 4.19555Z"
+                          fill="white" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_685_49731">
+                          <rect width="18" height="18" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </p>
+
+                  <p style="width: 18px; display: inline-block">
+                    <img src="https://cfdevelop.blob.core.windows.net/public/cryo-small.png" alt="cryo-logo-small" />
+                  </p>
+                </div>
+                <p
+                  style="
+                    color: #fff;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 160%; /* 22.4px */
+                    font-family: 'Nunito', sans-serif;
+                  ">
+                  If you’re having trouble clicking the "Get Started Here" button, copy and paste the URL below into
+                  your web browser:
+                  <a href="{{ url }}">https://app.cryo.future.co</a>
+                </p>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>

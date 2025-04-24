@@ -1,0 +1,13 @@
+{
+  "title": "Notes",
+  "add": "Add notes",
+  "edit": "Edit",
+  "save": "Save",
+
+  "modal": {
+    "title": "Add notes",
+    "label": "Notes:",
+    "cancel": "Cancel",
+    "submit": "Add"
+  }
+}

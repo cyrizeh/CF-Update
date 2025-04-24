@@ -1,0 +1,42 @@
+.Checkbox {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background: #212121;
+  border: 1px solid #7f7f7f !important;
+  cursor: pointer;
+  outline: none;
+}
+
+.Checkbox:focus {
+  box-shadow: none !important;
+}
+
+.Checkbox:checked {
+  outline: none !important;
+  border: none !important;
+  background: linear-gradient(153deg, #1371fd 0%, #18e3bb 100%) !important;
+}
+
+.Checkbox::before {
+  content: '';
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  background-image: url('../../../public/icons/check.svg');
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Checkbox::before {
+  display: none;
+}
+
+.Checkbox:checked::before {
+  display: block;
+}

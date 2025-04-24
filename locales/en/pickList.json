@@ -1,0 +1,72 @@
+{
+    "page_title": "Pick List",
+    "search_pickList_placeholder": "Search by clinic, type, assigned to",
+    "view_ticket": "View ticket",
+    "ticket_info": "Ticket Info",
+    "assign_to_myself": "Assign To Myself",
+    "assign_to": "Assign To",
+    "initiate_scanner": "Initiate Scanner",
+    "choose_scanner": "Choose Another Reader",
+    "withdraw": "Withdraw",
+    "table": {
+        "patient": "Patient",
+        "numberOfCanes": "Canes",
+        "specimen": "Specimen Type(s)",
+        "facility": "Facility",
+        "vault": "Vault",
+        "Tank": "Tank",
+        "Canister": "Canister",
+        "Pie": "Pie",
+        "Cane": "Cane",
+        "RFID": "RFID",
+        "cane_Num": "Slot",
+        "cane_color": "Cane ID (Cane Color)",
+        "caneLabel": "Cane Label",
+        "disposeAllConsent": "Dispose All Consent",
+        "disposeAllConsentPlaceholder": "Dispose All Consent (Y/N)",
+        "aneuploidDisposeConsent": "Aneuploid Dispose Consent",
+        "abandonedTissue": "Abandoned tissue (>12 mos)",
+        "keepAneuploidAndBill": "Keep Aneuploid and Bill",
+        "allAneuploidEmbryosinCane": "All Aneuploid Embryos in Cane",
+        "caneCycle": "Cycle #",
+        "allAneuploidEmbryosinCaneParts":{
+          "1stPart": "All Aneuploid ",
+          "2stPart": "Embryos in Cane"
+        },
+        "abandonedTissueParts":{
+          "1stPart": "Abandoned tissue ",
+          "2stPart": " (>12 mos)"
+        },
+        "embryoDonor": "Embryo Donor",
+        "spermDonor": "Sperm Donor",
+        "oocyteDonor": "Oocyte Donor",
+        "caneId": "Cane ID",
+        "caneColor": "(Cane color)",
+        "aneuploidDisposeConsentParts": {
+          "1stPart": "Aneuploid ",
+          "2stPart": "Dispose Consent"
+        },
+        "keepAneuploidAndBillParts":{
+          "1stPart": "Keep Aneuploid ",
+          "2stPart": "and Bill"
+        },
+        "pickUpStatus": "Pick Up Status",
+        "idLabResult": "ID Lab Result",
+        "clinicName":"Clinic Name",
+        "primaryIdentifier": "Primary Identifier",
+        "secondaryIdentifier": "Secondary Identifier",
+        "FDAEligibility": "FDA Eligibility",
+        "reactivity": "Reactivity",
+        "reactive": "Reactive"
+    },
+    "modal": {
+        "description": "Confirm manual withdrawal?",
+        "reader": "Reader",
+        "chooseReader": "Choose Reader"
+    },
+    "deleteCaneFromPickList": "Are you sure you want to delete the cane? It will be removed from the Pick List and also from the system.",
+    "errors": {
+      "caneIsWithDrawn": "Cane is already withdrawn",
+      "assignToYourself": "To withdraw the cane, you need to assign it to yourself"
+    }
+}

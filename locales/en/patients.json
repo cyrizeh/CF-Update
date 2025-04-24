@@ -1,0 +1,253 @@
+{
+  "title": "Patients",
+  "add": "Add patient",
+  "search_placeholder": "Search patient, clinic, facility",
+  "search_clinic_patients_placeholder": "Search patient, facility",
+  "search_transportation_placeholder": "Search patient, clinic, shipper number",
+  "table": {
+    "patient": "patient",
+    "specimen": "specimen",
+    "freeze_date": "freeze date",
+    "clinic": "clinic",
+    "facility": "facility",
+    "rfid": "rfid",
+    "onboarding": "onboarding",
+    "payment": "payment",
+    "sending_clinic": "sending clinic",
+    "receiving_clinic": "receiving clinic",
+    "shipper_number": "shipper number",
+    "shipment_date": "shipment sent date",
+    "shipment_received_date": "shipment received date",
+    "payer": "billed to",
+    "payment_status": "billing status",
+    "creation_date": "creation date",
+    "status": "transportation status",
+    "locationStatus": "Status",
+    "specimenTypes": "Specimen Type(s)",
+    "profileStatus": "Profile Status"
+  },
+  "createModal": {
+    "title": "Patient creation"
+  },
+  "registerModal": {
+    "patientInfoTitle": "Register for Cryostorage",
+    "partnerInfoTitle": "Add Your Partner",
+    "emergencyInfoTitle": "Emergency Contact"
+  },
+  "step1": {
+    "partnerTitle": "Partner General Info",
+    "patientTitle": "Patient General Info",
+    "partnerContact": "Partner Contact Info",
+    "patientContact": "Patient Contact Info"
+  },
+  "step2": {
+    "connectPartner": "Connect Partner",
+    "skipPartner": "Skip Partner"
+  },
+  "step3": {
+    "skipEmergency": "Skip Emergency",
+    "connectEmergency": "Add Emergency",
+    "emergencyContact": "Emergency Contact Info",
+    "contactName": "Contact Name *",
+    "contactEmail": "Contact Email *",
+    "contactAddress": "Contact Address *"
+  },
+  "step4": {
+    "billingTitle": "Clinic / Billing Information",
+    "clinic": "Search clinic *",
+    "facility": "Search storage facility *",
+    "billingStart": "Billing Start Date",
+    "paymentDateSource": "Payment Date Source",
+    "specimenReceivedDate": "Specimen Received Date",
+    "billingStartDate": "Billing Start Date"
+  },
+  "step5": {
+    "donorTitle": "Donor Type",
+    "straws": "Number of Straws *",
+    "spesimenType": "Specimen Type",
+    "canes": "Number of Canes",
+    "tissue": "Tissue Type *",
+    "freezeDate": "Freeze Date *",
+    "specimenTypes": "Select specimen type *",
+    "idLabs": "ID Labs",
+    "idLabsResults": "ID Lab Result *",
+    "report": "Cryopreservation Report",
+    "shouldCreateAccount": "Create account",
+    "witness": "Select Consent Witness",
+    "isPreTreatment": "Pre-treatment",
+    "onBoardingType": {
+      "title": "Onboarding Type",
+      "fullOnboard": "Full onboard (documents, payments, login)",
+      "paymentsOnboardPlusLogin": "Payments onboard + login",
+      "justPatientLogin": "Just patient login",
+      "noLoginOnboarding1": "No patient login",
+      "noLoginOnboarding2": "(just creating for internal view/inventory management)"
+    }
+  },
+  "avatarInfo": {
+    "onboadingStatus": "Onboarding Status",
+    "onboadingType": "Onboarding Type",
+    "complete": "Complete",
+    "incomplete": "Incomplete",
+    "storageDuration": "Storage plan"
+  },
+  "emergencyContact": "Emergency contact",
+  "edit_patient": "Edit Profile",
+  "transportation_request": "Transportation request",
+  "noBilling": "Billing is not provided for this user. Please fill in all the data to update the user information!",
+  "failed_billing": "Failed to pay the bill",
+  "billing_details_overview": {
+    "paymentDateSource": "Payment Date Source",
+    "SpecimenReceivedDate": "Specimen Received Date",
+    "BillingStartDate": "Billing Start Date"
+  },
+  "subscriptionType": {
+    "Consolidated": "Consolidated",
+    "PerCycle": "Per Cycle",
+    "paymentType": "Payment Type"
+  },
+  "canes": {
+    "canes": "Canes",
+    "addSpecimen": "Add specimen",
+    "rfid": "RFID",
+    "facility": "Facility",
+    "vault": "Vault",
+    "tank": "Tank",
+    "pie": "Pie",
+    "canister": "Canister",
+    "caneSlot": "Cane Slot",
+    "caneId": "Cane ID",
+    "caneColor": "Cane color",
+    "numberOf": "Number of ",
+    "strawVials": "Straw/Vials",
+    "clinic": "Clinic",    
+    "canetabColor": "Cane Tab Color",
+    "strawPTGRezults": "PGT Results"
+  },
+  "clinicDetails": "Clinic Details",
+  "clinicName": "Clinic Name",
+  "billings": {
+    "empty_biiling_1": "Patient's clinic does not have a pricing plan configured. Please go to ",
+    "empty_biiling_2": "clinic page ",
+    "empty_biiling_3": "and configure the pricing plan."
+  },
+  "editPaymentMethod": "Edit payment method",
+  "paymentMethodDetails": "Payment Method",  
+  "notSet": "Not Set",
+  "billingDetails": "Billing Details",
+  "billingStartDate": "Billing Start Date",
+  "notSetBillingStartDate":"Billing start date is not set.",
+  "extraProtectionProgramStatus": "Extra Protection Program Status",
+  "numberOfDevices":{
+    "1stPart": "Number ",
+    "2ndPart": "of devices"
+  },
+  "subscribe": "Subscribe",
+  "unSubscribe": "Unsubscribe",
+  "extraProtection": {
+    "subscribe": {
+      "description": {
+        "1stPart": "Extra Protection Plan (Storage Service Guarantee) through ",
+        "2ndPart": "Each annual payment there after will be ",
+        "3rdPart": " until you cancel or unsubscribe.",
+        "4thPart": "By clicking ''SUBSCRIBE'' below, I authorize CryoFuture to charge my payment method for the annual Extra Protection Plan and understand that I will be enrolled in the automatic payment plan unless I cancel by clicking ''UNSUBSCRIBE'' in my patient portal, or contacting ",
+        "5thPart": " at any time."
+      }
+    },
+    "unSubscribe": {
+      "description": {
+        "1stPart": "WARNING: By clicking ''Unsubscribe'' and confirming your choice to unsubscribe, you are unsubscribing from the Extra Protection Program (Storage Service Guarantee). Your program participation will terminate immediately and your specimens will no longer be protected by a reimbursement service guarantee against loss."
+      }
+    },
+    "autoRenew": {
+      "toggleLabel" : "EPP Auto-renew",
+      "on": "On",
+      "off": "Off",
+      "turnOff": "WARNING: By turning off Auto-renew, you will be automatically unsubscribed from the Extra Protection Program at the end of your current billing period for the Extra Protection Program, and your specimens will no longer be protected by a reimbursement service guarantee against loss.",
+      "turnOffTitle": "Turn off Auto-renew"
+    }
+  },
+  "specimenTypes": "Specimen Types",
+  "specimenType": "Specimen Type",
+  "numberOfCanes": "Number of Canes",
+  "errors": {
+    "editDonorInfo": "Cannot edit specimens information"
+  },
+  "linkedAcc": {
+    "addLinkedAcc": "Link Partner",
+    "deleteLinkedAcc": "Unlink Partner",
+    "address": "Address",
+    "clinicName": "Clinic Name",
+    "warning": "Warning: ",
+    "warningMsg": "Linking/unlinking partners will reset the onboarding progress for both accounts. This action cannot be undone. Both partners will need to complete the onboarding process again. Are you sure you want to proceed?",
+    "placeholder": "Search patient"
+  },
+  "mergeToStoragePatient": "Merge to Storage patient",
+  "editDonorInfo": "Edit Specimens Information",
+  "witness": "Witness",
+  "witnessName": "Witness Name",
+  "numberOfSpecimens":{
+    "1stPart": "Number ",
+    "2ndPart": "of specimens"
+  },
+  "createAccount": "Create Account",
+  "initiateOnboarding": "Initiate Onboarding",
+  "billingByCycle":{
+    "status": "Status",
+    "billingDate": "Billing Date",
+    "specimenTypes": "Specimen Types",
+    "addCycle": "Add Billing Cycle",
+    "billingStartDate": "Billing Start Date",
+    "subscriptionError": "Sorry, but your clinic's subscription type is not Per Cycle."
+  },
+  "tooltip":{
+    "typeExists": "This patient already has this type."
+  },
+  "chooseplan": "Choose Pricing Plan",
+  "changeplan": "Change Pricing Plan",
+  "clinicPlanVersion": "Plan Version",
+  "initiateOnboardingError": "Please add an email to this patient before selecting an onboarding type.",
+  "resendInvite": "Resend Invite",
+  "resetPassword": "Reset Password",  
+  "resetOnboarding": "Reset Onboarding",
+  "resetOnboardingModal": {
+    "warning": "Warning: ",
+    "warningMsg": "If this patient has a partner, initiating this process will reset the onboarding progress for both the patient and their partner. This action cannot be undone, and both will need to complete the onboarding process again. Are you sure you want to proceed?"
+  },
+  "resendInviteModal": {
+    "resetPassword": "Sending this email will reset the patient's password. This action cannot be undone, and the patient will need to use the link in the email to set a new password. Are you sure you want to proceed?",
+    "resendInvite": "Sending this email will generate a new invite, overwriting the previous one. This action cannot be undone, and the patient will need to use the new invite to proceed. Are you sure you want to continue?"
+  },
+  "noActionsAvailable": "No actions available",
+  "isPrimaryPayer":{
+    "patient": "Patient",
+    "co-patient": "Co-Patient"
+  },
+  "hasReactiveSpecimens": "Reactive",
+  "changeStoragePlan": {
+    "title": "Change Storage Plan",
+    "selectPlan": "Select Plan",
+    "button": "Change Storage Plan"
+  },
+  "paymentDetails": {
+      "pause_automatic_billing": "Pause automatic billing",
+      "unpause_automatic_billing": "Unpause automatic billing",
+      "stop_billing": "Stop billing",
+      "confirm_pause": "Confirm Pause",
+      "confirm_pause_message": "Are you sure you want to pause this subscription?",
+      "confirm_stop": "Confirm Stop",
+      "confirm_stop_message": "Are you sure you want to stop this subscription?",
+      "confirm_unpause": "Confirm Unpause",
+      "confirm_unpause_message": "Please select a new due date to unpause this subscription.",
+      "select_due_date": "Select Due Date",
+      "warning_multiple_subscriptions": "This action will affect multiple subscriptions with the same ID.",
+      "upcoming_charges": "Upcoming Charges",
+      "overdue": "Overdue",
+      "paused": "Paused",
+      "draft": "Draft",
+      "not_set": "Not Set",
+      "billing_status": "Billing Status",
+      "formatted_amount": "Formatted Amount",
+      "warning_subscription_list": "The following subscriptions will be affected:"
+  }
+}

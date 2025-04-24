@@ -1,0 +1,161 @@
+{
+  "title": "Transfers",
+  "transferIn": "Transfers back to clinic",
+  "transferOut": "Transfers to CryoFuture",
+  "table": {
+    "order": "Order",
+    "transferStatus": "Transfer Status",
+    "creationDate":"Creation Date",
+    "sendingClinic": "Sending Clinic",
+    "receivingClinic": "Receiving clinic",
+    "createdBy":    "Created By",
+    "numberOfCanes": "Number Of Canes",
+    "shipmentDate":"Shipment Date",
+    "patient": "Patient",
+    "status": "Status",
+    "tissueType": "Specimen Type",
+    "numberOfStraws": "Straws",
+    "freezeDate": "Freeze Date",
+    "idLabResult": "ID Lab Result",
+    "actions": "",
+    "specimen": "Specimen Type(s)",
+    "facility": "Facility",
+    "clinic": "Clinic",
+    "vault": "Vault",
+    "Tank": "Tank",
+    "Canister": "Canister",
+    "Pie": "Pie",
+    "Cane": "Cane",
+    "CaneNum": "Slot",
+    "RFID": "RFID",
+    "deviceNumber": "Straw/Vial Qty",
+    "openDetails": "View Details",
+    "hideDetails": "Hide Details",
+    "cane_description": "Cane ID (Cane color)",
+    "disposeAllConsent": "Dispose All Consent",
+    "disposeAllConsentPlaceholder": "Dispose All Consent (Y/N)",
+    "aneuploidDisposeConsent": "Aneuploid Dispose Consent",
+    "abandonedTissue": "Abandoned tissue (>12 mos)",
+    "keepAneuploidAndBill": "Keep Aneuploid and Bill",
+    "allAneuploidEmbryosinCane": "All Aneuploid Embryos in Cane",
+    "caneCycle": "Cycle #",
+    "allAneuploidEmbryosinCaneParts":{
+      "1stPart": "All Aneuploid ",
+      "2stPart": "Embryos in Cane"
+    },
+    "abandonedTissueParts":{
+      "1stPart": "Abandoned tissue ",
+      "2stPart": " (>12 mos)"
+    },
+    "embryoDonor": "Embryo Donor",
+    "spermDonor": "Sperm Donor",
+    "oocyteDonor": "Oocyte Donor",
+    "caneId": "Cane ID",
+    "caneColor": "(Cane color)",
+    "aneuploidDisposeConsentParts": {
+      "1stPart": "Aneuploid ",
+      "2stPart": "Dispose Consent"
+    },
+    "keepAneuploidAndBillParts":{
+      "1stPart": "Keep Aneuploid ",
+      "2stPart": "and Bill"
+    }
+  },
+  "modal": {
+    "add": "Add device",
+    "delete": "Delete device",
+    "cancel": "cancel",
+    "finish": "finish",
+    "notes": "Notes",
+    "isDonor": "Is Donor",
+    "donorName": "Donor name",
+    "donorDOB": "Donor DOB",
+    "dateOfFreezing": "Receipt date",
+    "strawColor": "Straw Color",
+    "addSpecimen": "Add Specimen",
+    "strawVial": "Straw/Vial",
+    "strawNumber": "Straw #",
+    "deleteStraw": "Delete Straw",
+    "discardCane": "Discard Cane",
+    "editDevice": "Edit Straw/Vial",
+    "editCane": "Edit Cane",
+    "addDevice": "Add Straw/Vial",
+    "deleteAlert": {
+      "device": "Are you sure you want to delete the device?",
+      "cane": "Are you sure you want to discard the cane?"
+  }
+  },
+  "detailsPage": {  
+  "specimenDetails": "Cane details",
+  "specimenLocation": "Location",
+  "specimenCane": "Cane",
+  "specimenNotes": "Notes",
+  "specimenPatientData": "Patient data",
+  "straw":"Straw/Vial",
+  "generalInfo": "General info",
+  "generalClinicInfo": "Clinic details"
+  },
+  "locationDetails": {
+    "facility": "Facility",
+    "vault": "Vault",
+    "tank": "Tank",
+    "pie": "Pie",
+    "canister": "Canister"
+  },
+  "caneDetails": {
+    "slot": "Slot",
+    "strawVialQty": "Straw/Vial Qty",
+    "expectedStrawVialQty": "Expected Straw/Vial Qty",
+    "rfid": "RFID"
+  },
+  "patientDetails": {
+    "email": "Email",
+    "fullName": "Full name",
+    "freezeDate": "Freeze Date"
+  },
+  "generalInformation": {
+    "clinicName": "Clinic name",
+    "createdAt": "Cane created at"
+  },
+  "strawVialDetails": {
+    "specimenType": "Specimen Type",
+    "strawVialNumberDescription": "Straw/Vial Description",
+    "freezeDate": "Freeze Date",
+    "strawVialColor": "Straw/Vial Color",
+    "idLabResult": "ID Lab Result",
+    "cane_description": "Cane ID (Cane color)"
+  },
+  "generalClinicInfo": {
+    "clinicName": "Clinic name",
+    "clinicType": "Clinic type",
+    "primaryContactTitle": "Primary contact"
+  },
+  "specimenTable":{
+    "dateFreezeReceipt": "DATE OF Receipt",
+    "strawColor": "Straw Color",
+    "strawNumber": "STRAW #",
+    "strawLocation": "LOCATION",
+    "numberOfEmbryos": "# OF EMBRYOS",
+    "strawPTGRezults": "PGT Results",
+    "strawDateThaw": "DATE OF THAW",
+    "strawUsedFor": "Used For",
+    "strawComments": "COMMENTS",
+    "strawNotes": "NOTES",
+    "donorEmbryo": "Donor Embryo",
+    "donorEmbryoDOB": "Donor Embryo DOB",
+    "donorOocyte": "Donor Oocyte",
+    "donorOocyteDOB": "Donor Oocyte DOB",
+    "donorSperm": "Donor Sperm",
+    "donorSpermDOB": "Donor Sperm DOB",
+    "isDonor": "Is Donor",
+    "eggDonor": "NAME/ Egg Donor",
+    "DOBDonor": "DOB/ Donor DOB",
+    "partnerDonor": "Partner/ Semen Donor",
+    "DOB": "DOB",
+    "dateFreeze": "DAY of FREEZE",
+    "idLabResult": "ID Lab Result"
+  },
+  "errors": {
+    "deleteCaneSuccess": "The cane has been successfully discarded"
+  }
+}

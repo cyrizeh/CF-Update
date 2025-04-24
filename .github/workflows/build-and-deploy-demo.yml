@@ -1,0 +1,31 @@
+on:
+  workflow_dispatch:
+name: Build and deploy to demo
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment: demo
+    steps:
+      # checkout the repo
+      - name: 'Checkout GitHub Action'
+        uses: actions/checkout@v3
+
+      - name: 'Build and push image'
+        uses: azure/docker-login@v1
+        with:
+          login-server: ${{ secrets.REGISTRY_LOGIN_SERVER }}
+          username: ${{ secrets.REGISTRY_USERNAME }}
+          password: ${{ secrets.REGISTRY_PASSWORD }}
+      - run: |
+          IMAGE=${{secrets.REGISTRY_LOGIN_SERVER}}/demo/front:${{github.run_number}}
+          docker build . --file Dockerfile --tag $IMAGE --build-arg ENVIRONMENT_ARG=demo
+          docker push $IMAGE
+      - name: Update azure apps containver version
+        uses: azure/CLI@v1
+        with:
+          azcliversion: 2.56.0
+          inlineScript: |
+            IMAGE=${{secrets.REGISTRY_LOGIN_SERVER}}/demo/front:${{github.run_number}}
+            az login --service-principal --username ${{vars.AZURE_USER_NAME}} --tenant ${{vars.AZURE_TENANT}} --password ${{secrets.AZURE_PASSWORD}}
+            az webapp config container set --docker-custom-image-name $IMAGE --name ${{vars.AZURE_WEBAPP}} --resource-group ${{vars.AZURE_RESOURCE_GROUP}} --subscription ${{vars.AZURE_SUBSCRIPTION}}

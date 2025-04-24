@@ -1,0 +1,15 @@
+{
+  "title": "Attachments",
+  "add": "Add attachments",
+
+  "modal": {
+    "title": "Add attachments",
+    "uploadPlaceholder": "Upload a document",
+    "cancel": "Cancel",
+    "submit": "Add",
+    "visibleForPatient": "Visible to patient",
+    "visibleForAll": "Make all attachments visible to the patient",
+    "selected": "selected",
+    "uploading": "Loading..."
+  }
+}

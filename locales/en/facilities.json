@@ -1,0 +1,37 @@
+{
+  "title": "Facilities",
+  "addFacility": "Add facility",
+  "editFacility": "Edit facility",
+  "numberOfVaults": "Vaults",
+  "numberOfSpecimens": "Specimens",
+  "numberOfCanes": "Canes",
+  "noFacilities": "No facilities found",
+  "loading": "Loading...",
+  "modal": {
+    "createFacility": "Add a new facility",
+    "facilityName": "Facility name",
+    "facilityAddress": "Facility address",
+    "createInventory": "Add a new inventory",
+    "createTank": "Add a new tank",
+    "updateFacility": "Edit facility"
+  },
+  "addInventory": "Add inventory",
+  "addTank": "Add tank",
+  "editTank": "Edit Tank",
+  "tankName": "Tank Name",
+  "deleteVault": "Delete vault",
+  "inventories": "Inventories",
+  "facilityDetails": "Facility details",
+  "facilityDetailsPage": {
+    "name": "Name",
+    "address": "Address",
+    "state": "State",
+    "canesCount": "Number of Canes in Facility",
+    "devicesCount": "Number of Devices in Facility",
+    "specimensCount": "Number of Specimens in Facility",
+    "canes": "Canes",
+    "devices": "Devices",
+    "specimens": "Specimens",
+    "reservedSlots": "Slots reserved for canes in transfer"
+  }
+}
